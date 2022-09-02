@@ -26,8 +26,8 @@ let config = {
 	httpsPrivateKey: "", 	// HTTPS private key path, only require when useHttps is true
 	httpsCertificate: "", 	// HTTPS Certificate path, only require when useHttps is true
 
-	language: "en",
-	locale: "en-US",
+	language: "pl",
+	locale: "pl-PL",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
 	timeFormat: 24,
 	units: "metric",
