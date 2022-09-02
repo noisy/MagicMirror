@@ -64,7 +64,44 @@ let config = {
 		},
 		{
 			module: "compliments",
-			position: "lower_third"
+			position: "lower_third",
+			config: {
+				compliments: {
+					anytime: [
+						"Hey there sexy!"
+					],
+					morning: [
+						"Good morning, handsome!",
+						"Enjoy your day!",
+						"How was your sleep?"
+					],
+					afternoon: [
+						"Hello, beauty!",
+						"You look sexy!",
+						"Looking good today!"
+					],
+					evening: [
+						"Wow, you look hot!",
+						"You look nice!",
+						"Hi, sexy!"
+					],
+					"....-01-01": [
+						"Happy new year!"
+					],
+					"....-03-21": [
+						"🎂\nSto lat Magdaleno!"
+					],
+					"....-02-11": [
+						"🎂\n\nSto lat Krzyśku!"
+					],
+					"....-04-02": [
+						"🎂\nSto lat Joasiu!"
+					],
+					"....-08-10": [
+						"🎂\nSto lat Emolio!"
+					]
+				}
+			}
 		},
 		{
 			module: "weather",
